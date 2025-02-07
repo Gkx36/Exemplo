@@ -1,0 +1,11 @@
+import random as rd
+
+num = int("Choose a number between 1 and 10")
+
+com = rd.randint(1, 10)
+
+if num == com:
+  print("Correct!")
+else:
+  print("Incorrect!")
+  
